@@ -28,7 +28,7 @@ public class Main {
             System.out.println(car + " - Росход: " + car.getFuelConsumption() + " л/100 км");
         }
 
-        // Шукаємо авто в заданному діапазоні швидкості
+        // Шукаємо авто в заданому діапазоні швидкості
         int minSpeed = getInputValue(scanner, "Введіть мінімальну швидкість (км/г): ", Integer.class);
         int maxSpeed = getInputValue(scanner, "Введіть максимальну швидкість (км/г): ", Integer.class);
 

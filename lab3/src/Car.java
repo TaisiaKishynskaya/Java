@@ -2,7 +2,7 @@ class Car {
     private final String make;
     private final String model;
     private final int year;
-    private final double fuelConsumption; // Росход палива (л/100 км)
+    private final double fuelConsumption;  // Росход палива (л/100 км)
 
     public Car(String make, String model, int year, double fuelConsumption) {
         this.make = make;

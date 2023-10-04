@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-// Клас, що представляє таксопарк
 class TaxiPark {
     protected final List<Car> cars = new ArrayList<>();
 
