@@ -22,9 +22,7 @@ public class CanvasDrawingApp extends Application {
         launch(args);
     }
 
-    /**
-     * Сбрасывает холст в его первоначальный вид, заполняя полотно
-     */
+    //Сбрасывает холст в его первоначальный вид, заполняя полотно
     private void reset(Canvas canvas, Color color) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
         gc.setFill(color);
