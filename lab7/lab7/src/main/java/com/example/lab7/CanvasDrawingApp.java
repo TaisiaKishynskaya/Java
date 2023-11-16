@@ -1,5 +1,4 @@
 package com.example.lab7;
-
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
